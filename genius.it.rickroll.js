@@ -1,3 +1,7 @@
+/*
+ * Replace injected Genius iframe with autoplaying Rick Astley.
+ */
+
 (function(){
 	var iter = function(c){
 		if( typeof c != 'object' ) return;
@@ -15,4 +19,5 @@
 			}
 		}catch(e){}
 	},1000);
+
 })();

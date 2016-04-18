@@ -1,3 +1,6 @@
+Simple no configuration Genius.it annotator blocker.
+
+```javascript
 /* No Config genius.it blocker */
 (function(){
 	var l = document.location;
@@ -9,3 +12,4 @@
 		document.location = '//'+p.join('/');
 	}
 })();
+```

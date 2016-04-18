@@ -1,5 +1,7 @@
 Simple no configuration Genius.it annotator blocker.
 
+This snippet on any web page (or in a .js file) will redirect away from genius.it back to the source site:
+
 ```javascript
 /* No Config genius.it blocker */
 (function(){
@@ -13,3 +15,5 @@ Simple no configuration Genius.it annotator blocker.
 	}
 })();
 ```
+
+To block (or harrass) genius web annotators using an extension, use one of the other js files.
